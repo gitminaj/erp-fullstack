@@ -1,0 +1,4 @@
+.dropdown-menu-custom .dropdown-item:hover {
+    background-color: black;
+    color: white;
+}

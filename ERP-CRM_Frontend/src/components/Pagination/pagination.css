@@ -1,0 +1,33 @@
+/* pagination.css */
+.custom-pagination .page-item.active .page-link {
+    background-color: #152238;
+    border-color: #152238;
+    color: white;
+  }
+  
+  .custom-pagination .page-link {
+    
+    color: white;
+  }
+  
+  .custom-pagination .page-link:hover {
+    background-color: #333;
+    border-color: #333;
+    color: white;
+  }
+  
+  .custom-pagination .page-item.disabled .page-link {
+    background-color: #152238;
+    border-color: #152238;
+    color: gray;
+  }
+  
+  
+  .custom-pagination .page-link:first-child {
+    color: black; /* Arrow color for previous */
+  }
+  
+  .custom-pagination .page-link:last-child {
+    color: black; /* Arrow color for next */
+  }
+  
